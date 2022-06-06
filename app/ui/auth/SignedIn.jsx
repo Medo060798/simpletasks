@@ -11,22 +11,22 @@ export const SignedIn = () => {
         <Stack align="center">
           <Heading
             fontSize="4xl"
-            bgGradient="linear(to-l, #675AAA,#4399E1)"
+            bgGradient="linear(to-l, #675BBA,#4399E1)"
             bgClip="text"
           >
             You are already signed in
           </Heading>
-          <Text fontSize="lg" color="gray.600">
+          <Text fontSize="lg" color="white">
             to start creating your simple tasks
           </Text>
         </Stack>
         <Stack spacing={10}>
           <Button
             onClick={() => navigate(RoutePaths.TASKS)}
-            bg="blue.400"
+            bg="blue.500"
             color="white"
             _hover={{
-              bg: 'blue.500',
+              bg: 'blue.300',
             }}
           >
             Go to your tasks
