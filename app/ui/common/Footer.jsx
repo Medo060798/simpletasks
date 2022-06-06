@@ -32,21 +32,21 @@ export const Footer = () => (
             target="_blank"
             href="https://github.com/fredmaiaarantes/simpletasks"
             aria-label="GitHub"
-            icon={<FaGithub fontSize="20px" />}
+            icon={<FaGithub fontSize="40px" />}
           />
           <IconButton
             as="a"
             target="_blank"
             href="https://twitter.com/fredmaiaarantes"
             aria-label="Twitter"
-            icon={<FaTwitter fontSize="20px" />}
+            icon={<FaTwitter fontSize="40px" />}
           />
           <IconButton
             as="a"
             target="_blank"
             href="https://linkedin.com/in/fredmaiaarantes"
             aria-label="LinkedIn"
-            icon={<FaLinkedin fontSize="20px" />}
+            icon={<FaLinkedin fontSize="40px" />}
           />
         </ButtonGroup>
       </Stack>
