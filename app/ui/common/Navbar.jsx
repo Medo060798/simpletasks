@@ -36,7 +36,7 @@ export const Navbar = () => {
         px={{ base: 4 }}
         borderBottom={1}
         borderStyle="solid"
-        borderColor={useColorModeValue('gray.200', 'gray.900')}
+        borderColor={useColorModeValue('blue.200', 'blue.900')}
         align="center"
       >
         <Flex flex={{ base: 1 }} justify="start">
@@ -46,7 +46,7 @@ export const Navbar = () => {
             color={useColorModeValue('gray.800', 'white')}
           >
             <Link
-              bgGradient="linear(to-l, #675AAA, #4399E1)"
+              bgGradient="linear(to-l, #675ABA, #4399E1)"
               bgClip="text"
               onClick={() => navigate(RoutePaths.ROOT)}
             >
